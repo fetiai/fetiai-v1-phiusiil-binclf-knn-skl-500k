@@ -1,0 +1,5 @@
+# The Hub requires binary files to be stored through LFS rather than as plain git
+# blobs. Declared for both model formats in every repository so that the four stay
+# structurally identical, even where the artifact of the moment happens to be JSON.
+*.npz filter=lfs diff=lfs merge=lfs -text
+*.joblib filter=lfs diff=lfs merge=lfs -text
