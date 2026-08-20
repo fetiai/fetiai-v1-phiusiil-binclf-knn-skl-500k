@@ -5,17 +5,17 @@
 **Group 16** · IF3070 Foundations of Artificial Intelligence · STEI ITB
 
 <p>
-  <img src="https://img.shields.io/badge/course-IF3070-3b5bdb?style=flat-square" alt="IF3070" />
-  <img src="https://img.shields.io/badge/institution-STEI%20ITB-1f2937?style=flat-square" alt="STEI ITB" />
-  <img src="https://img.shields.io/badge/year-2024%2F2025--1-6b7280?style=flat-square" alt="2024/2025-1" />
-  <img src="https://img.shields.io/badge/group-16-3b5bdb?style=flat-square" alt="Group 16" />
+  <img src="https://img.shields.io/badge/course-IF3070-3b5bdb?style=flat-square" alt="IF3070" style="display:inline-block;margin:0;vertical-align:text-bottom" />
+  <img src="https://img.shields.io/badge/institution-STEI%20ITB-1f2937?style=flat-square" alt="STEI ITB" style="display:inline-block;margin:0;vertical-align:text-bottom" />
+  <img src="https://img.shields.io/badge/year-2024%2F2025--1-6b7280?style=flat-square" alt="2024/2025-1" style="display:inline-block;margin:0;vertical-align:text-bottom" />
+  <img src="https://img.shields.io/badge/group-16-3b5bdb?style=flat-square" alt="Group 16" style="display:inline-block;margin:0;vertical-align:text-bottom" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/task-tabular--classification-3b5bdb?style=flat-square" alt="tabular classification" />
-  <img src="https://img.shields.io/badge/parameters-500k-1f2937?style=flat-square" alt="500,002 parameters" />
-  <img src="https://img.shields.io/badge/dataset-PhiUSIIL-6b7280?style=flat-square" alt="PhiUSIIL" />
-  <img src="https://img.shields.io/badge/licence-MIT-3b5bdb?style=flat-square" alt="MIT" />
+  <img src="https://img.shields.io/badge/task-tabular--classification-3b5bdb?style=flat-square" alt="tabular classification" style="display:inline-block;margin:0;vertical-align:text-bottom" />
+  <img src="https://img.shields.io/badge/parameters-500k-1f2937?style=flat-square" alt="500,002 parameters" style="display:inline-block;margin:0;vertical-align:text-bottom" />
+  <img src="https://img.shields.io/badge/dataset-PhiUSIIL-6b7280?style=flat-square" alt="PhiUSIIL" style="display:inline-block;margin:0;vertical-align:text-bottom" />
+  <img src="https://img.shields.io/badge/licence-MIT-3b5bdb?style=flat-square" alt="MIT" style="display:inline-block;margin:0;vertical-align:text-bottom" />
 </p>
 
 </div>
@@ -49,18 +49,12 @@ $ curl -s localhost:8000/predict -H 'content-type: application/json' -d '{
 **Built with**
 
 <p>
-  <img src=".github/assets/logos/python.svg" width="18" height="18" align="top" alt="" /> Python &nbsp;
-  <img src=".github/assets/logos/scikit-learn.svg" width="18" height="18" align="top" alt="" /> scikit-learn &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/logos/numpy-dark.svg" />
-    <img src=".github/assets/logos/numpy.svg" width="18" height="18" align="top" alt="" />
-  </picture> NumPy &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/logos/pandas-dark.svg" />
-    <img src=".github/assets/logos/pandas.svg" width="18" height="18" align="top" alt="" />
-  </picture> pandas &nbsp;
-  <img src=".github/assets/logos/scipy.svg" width="18" height="18" align="top" alt="" /> SciPy &nbsp;
-  <img src=".github/assets/logos/docker.svg" width="18" height="18" align="top" alt="" /> Docker
+  <img src=".github/assets/logos/python.svg" width="18" height="18" align="top" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" /> Python &nbsp;
+  <img src=".github/assets/logos/scikit-learn.svg" width="18" height="18" align="top" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" /> scikit-learn &nbsp;
+  <img src=".github/assets/logos/numpy-dark.svg" width="18" height="18" align="top" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" /> NumPy &nbsp;
+  <img src=".github/assets/logos/pandas-dark.svg" width="18" height="18" align="top" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" /> pandas &nbsp;
+  <img src=".github/assets/logos/scipy.svg" width="18" height="18" align="top" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" /> SciPy &nbsp;
+  <img src=".github/assets/logos/docker.svg" width="18" height="18" align="top" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" /> Docker
 </p>
 
 **Links** — [Full application](https://github.com/fetiai/phishing-url-classifier) ·
@@ -253,12 +247,12 @@ this model, not only with the dataset.
       18222023
       <br /><br />
       <a href="https://github.com/thalitazhrr">
-        <img src=".github/assets/github.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/github.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         thalitazhrr
       </a>
       <br />
       <a href="https://www.linkedin.com/in/thalitazahras/">
-        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         thalitazahras
       </a>
     </td>
@@ -271,12 +265,12 @@ this model, not only with the dataset.
       18222056
       <br /><br />
       <a href="https://github.com/IrfanMusthofa">
-        <img src=".github/assets/github.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/github.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         IrfanMusthofa
       </a>
       <br />
       <a href="https://www.linkedin.com/in/irfanmusthofa/">
-        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         irfanmusthofa
       </a>
     </td>
@@ -289,12 +283,12 @@ this model, not only with the dataset.
       18222059
       <br /><br />
       <a href="https://github.com/EleanorCordelia">
-        <img src=".github/assets/github.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/github.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         EleanorCordelia
       </a>
       <br />
       <a href="https://www.linkedin.com/in/eleanorcordelia/">
-        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         eleanorcordelia
       </a>
     </td>
@@ -307,12 +301,12 @@ this model, not only with the dataset.
       18222063
       <br /><br />
       <a href="https://github.com/faizath">
-        <img src=".github/assets/github.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/github.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         faizath
       </a>
       <br />
       <a href="https://www.linkedin.com/in/faizath/">
-        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" />
+        <img src=".github/assets/linkedin.svg" width="14" height="14" alt="" style="display:inline-block;margin:0;vertical-align:text-bottom" />
         faizath
       </a>
     </td>
