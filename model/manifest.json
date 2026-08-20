@@ -1,0 +1,48 @@
+{
+  "artifact_schema_version": "v1",
+  "demoted_features": [
+    "Bank",
+    "HasExternalFormSubmit",
+    "HasFavicon",
+    "HasHiddenFields",
+    "HasSubmitButton",
+    "LargestLineLength",
+    "NoOfExternalRef",
+    "NoOfPopup",
+    "NoOfSelfRef",
+    "NoOfiFrame",
+    "Pay",
+    "Robots"
+  ],
+  "family": "knn",
+  "feature_count": 49,
+  "files": {
+    "fitted_stats.json": {
+      "bytes": 676974,
+      "sha256": "9d8d3804ec079bef9f47d4a63abe365d1a69830a5b7348d53359d00e0cfd5e65"
+    },
+    "golden_row.json": {
+      "bytes": 2344,
+      "sha256": "17c9bdda53a0567ecac0969f3b1f3a391589a40728117e3f55c42394b86d1732"
+    },
+    "knn_sklearn.joblib": {
+      "bytes": 2040804,
+      "sha256": "7a34564d384384b7708c1561ff0f5d3ce2863d117865afad7ea5e119b300aa06"
+    },
+    "metrics.json": {
+      "bytes": 2929,
+      "sha256": "29dae9342898d4e816e80e04da7b3660bad84d22ae97bd3b21c952885cbc3fe8"
+    }
+  },
+  "is_scratch": false,
+  "knn_k": 20,
+  "knn_reference_rows": 10000,
+  "library_version": "1.0.0",
+  "model_key": "knn_sklearn",
+  "model_name": "KNN (scikit-learn)",
+  "parameter_count": 500002,
+  "profile": "corrected",
+  "random_state": 42,
+  "source_git_sha": "b9fbbe0054ebffe4caabcc833f3c42a8dbc72001",
+  "test_size": 0.2
+}

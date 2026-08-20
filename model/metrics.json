@@ -1,0 +1,82 @@
+{
+  "artifact_schema_version": "v1",
+  "baseline_accuracy": 0.9248,
+  "baseline_note": "A constant 'legitimate' predictor scores this. Read every accuracy against it: on its own the number cannot tell a working detector from a constant.",
+  "n_train": 112323,
+  "n_validation": 28081,
+  "positive_class": "phishing (label 0)",
+  "profiles": {
+    "corrected": {
+      "knn_k": 20,
+      "leaky": false,
+      "models": {
+        "knn_sklearn": {
+          "accuracy": 0.9807343043338912,
+          "average_precision_phishing": 0.9674091116816042,
+          "baseline_accuracy": 0.9248,
+          "confusion_matrix": [
+            [
+              1643,
+              509
+            ],
+            [
+              32,
+              25897
+            ]
+          ],
+          "family": "knn",
+          "is_scratch": false,
+          "legitimate_f1": 0.9896627495939619,
+          "legitimate_precision": 0.9807240778610922,
+          "legitimate_recall": 0.9987658606193837,
+          "lift_over_baseline": 0.05593430433389124,
+          "name": "KNN (scikit-learn)",
+          "phishing_f1": 0.8586360073164359,
+          "phishing_precision": 0.9808955223880597,
+          "phishing_recall": 0.7634758364312267,
+          "predict_seconds": 1.3011771459860029,
+          "support_legitimate": 25929,
+          "support_phishing": 2152
+        }
+      },
+      "note": "Canonical. Serving-time statistics are the training-time statistics.",
+      "parity_vs_sibling_implementation": 0.00035611267405006946
+    },
+    "legacy": {
+      "knn_k": 6,
+      "leaky": true,
+      "models": {
+        "knn_sklearn": {
+          "accuracy": 0.9862896620490723,
+          "average_precision_phishing": 0.9533724979602588,
+          "baseline_accuracy": 0.9248,
+          "confusion_matrix": [
+            [
+              1837,
+              315
+            ],
+            [
+              70,
+              25859
+            ]
+          ],
+          "family": "knn",
+          "is_scratch": false,
+          "legitimate_f1": 0.9926107901656336,
+          "legitimate_precision": 0.9879651562619394,
+          "legitimate_recall": 0.9973003201049019,
+          "lift_over_baseline": 0.06148966204907236,
+          "name": "KNN (scikit-learn)",
+          "phishing_f1": 0.9051490514905149,
+          "phishing_precision": 0.9632931305715784,
+          "phishing_recall": 0.8536245353159851,
+          "predict_seconds": 0.5451889800024219,
+          "support_legitimate": 25929,
+          "support_phishing": 2152
+        }
+      },
+      "note": "Reconstruction of the original's configuration, including standardising each split by its own mean and standard deviation. Reported for provenance only. The scaling behind these numbers does not exist at serving time and cannot be reconstructed from a single URL, so they describe a model that cannot be deployed.",
+      "parity_vs_sibling_implementation": 0.0022791211139204445
+    }
+  }
+}

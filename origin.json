@@ -1,0 +1,84 @@
+{
+  "byte_identical": [
+    "model/fitted_stats.json"
+  ],
+  "modules": [
+    {
+      "module": "phiusiil/__init__.py",
+      "sha256": null,
+      "source": "rewritten"
+    },
+    {
+      "edited": false,
+      "module": "phiusiil/schema.py",
+      "sha256": "f2b55eb2116e9c8584a46b86f887d4b61f72e002472d30373b3e3782f07fa641",
+      "source_sha256": "f2b55eb2116e9c8584a46b86f887d4b61f72e002472d30373b3e3782f07fa641"
+    },
+    {
+      "edited": false,
+      "module": "phiusiil/features/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "edited": false,
+      "module": "phiusiil/features/url_features.py",
+      "sha256": "f56770d221335cb6bfb65ff3e54de87f02f4db3d653a0b67db74d3fc3179e5fe",
+      "source_sha256": "f56770d221335cb6bfb65ff3e54de87f02f4db3d653a0b67db74d3fc3179e5fe"
+    },
+    {
+      "edited": false,
+      "module": "phiusiil/preprocess/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "edited": false,
+      "module": "phiusiil/preprocess/stats.py",
+      "sha256": "e7a2a69950bffdc0dccb867bb4b186a9bd5f0c85a5028987782f7254093b56c4",
+      "source_sha256": "e7a2a69950bffdc0dccb867bb4b186a9bd5f0c85a5028987782f7254093b56c4"
+    },
+    {
+      "edited": true,
+      "module": "phiusiil/preprocess/scaler.py",
+      "sha256": "e15f4153108cb3a3e3043cac3b46b7eee82e9e0008ff44252896e2f787d3a400",
+      "source_sha256": "51275d0c18b2e295f0a75451f1776a329ad23469f9ebab3cba19067ae774bed2"
+    },
+    {
+      "edited": true,
+      "module": "phiusiil/preprocess/transformer.py",
+      "sha256": "6610f94b36eb5981ac05cb74bac52777431f622fcbd234837497514a5a0fb377",
+      "source_sha256": "0c0c95dd05239ac027bb986f45818855316af00dbbea5ccf0884d1f869ae18a5"
+    },
+    {
+      "edited": false,
+      "module": "phiusiil/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "edited": true,
+      "module": "phiusiil/models/base.py",
+      "sha256": "aad4a59b713993800e533c2febaa82927ec13bf9c4edaf52438d92029c74fe84",
+      "source_sha256": "cfd0dbe9fa0687187a4b02bb6cfbc924fcfadc9bc9150c6a85ce5132fd735cc1"
+    },
+    {
+      "edited": true,
+      "module": "phiusiil/models/sk.py",
+      "sha256": "ba278f30245fcfae4fccddc0253149f937a0ed9732dc2b49554ab03e81df158b",
+      "source_sha256": "b247856c353b867173a70af6fdd94e5b6eee31758fa95ee8324182798b76a214"
+    }
+  ],
+  "note": "Provenance for everything copied out of the training bundle. The vendored modules were copied with the package name rewritten, so source_sha256 is the hash before that rewrite and sha256 the hash as shipped. source_artifacts records the bundle's own hashes: fitted_stats.json is byte-identical and will match, while metrics.json and golden_row.json were reduced to this one model and so will not -- the recorded hash is what they were reduced from.",
+  "reserialised": [
+    "model/knn_sklearn.joblib"
+  ],
+  "source_artifacts": {
+    "fitted_stats.json": "9d8d3804ec079bef9f47d4a63abe365d1a69830a5b7348d53359d00e0cfd5e65",
+    "golden_row.json": "2a2e64148dbb0c2d298eae5e4071ca496e642fcb98a06cc2d7cfbb3d3900ea27",
+    "metrics.json": "4ed0d21483c05158a52523ee3be4fdd323da29f4cfb7f51a71f5612b7765bc8f",
+    "models/knn_sklearn.joblib": "0c1ca136527e597c5a77dccf1dc0d6d3d61e52e3e3afa770099d48a2fc393503"
+  },
+  "source_git_sha": "b9fbbe0054ebffe4caabcc833f3c42a8dbc72001",
+  "source_repo": "https://github.com/fetiai/phishing-url-classifier"
+}
