@@ -1,0 +1,12 @@
+# Exact pins. Regenerate with: .venv/bin/python -m pip freeze --exclude-editable
+fastapi==0.121.1
+numpy==2.5.1
+pandas==3.0.5
+pydantic==2.12.4
+uvicorn==0.51.0
+
+# The serialised model is a pickle produced by this exact scikit-learn version. Loading it
+# under a different one is unsupported and may silently change behaviour.
+joblib==1.5.3
+scikit-learn==1.9.0
+scipy==1.18.0

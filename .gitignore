@@ -1,0 +1,25 @@
+# The model artifact IS committed, deliberately.
+#
+# It is a build output, and the instinct is to keep build outputs out of git. But this
+# repository exists to distribute that output: a clone without it has a server and no
+# model. The image bakes it in rather than mounting it, so the image tag fully describes
+# what the service predicts.
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
