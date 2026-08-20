@@ -1,38 +1,3 @@
----
-license: mit
-pipeline_tag: tabular-classification
-library_name: sklearn
-datasets:
-  - faizath/phiusiil-if3070-stei-itb-2024-2025-1
-tags:
-  - phishing-detection
-  - url-classification
-  - tabular-classification
-  - binary-classification
-  - phiusiil
-  - knn
-  - scikit-learn
-model-index:
-  - name: fetiai-v1-phiusiil-binclf-knn-skl-500k
-    results:
-      - task:
-          type: tabular-classification
-          name: Phishing URL Classification
-        dataset:
-          type: faizath/phiusiil-if3070-stei-itb-2024-2025-1
-          name: PhiUSIIL Phishing URL Dataset
-        metrics:
-          - type: accuracy
-            value: 0.9807343043338912
-            name: Accuracy
-          - type: precision
-            value: 0.9808955223880597
-            name: Phishing precision
-          - type: recall
-            value: 0.7634758364312267
-            name: Phishing recall
----
-
 <div align="center">
 
 # fetiai-v1-phiusiil-binclf-knn-skl-500k
